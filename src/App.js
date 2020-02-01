@@ -19,6 +19,7 @@ const App = () => {
     <div className="App">
       <SearchBar />
       <PostsPage data={data} />
+      
       {/* Add components here  and pass props where appropriate */}
     </div>
   );
