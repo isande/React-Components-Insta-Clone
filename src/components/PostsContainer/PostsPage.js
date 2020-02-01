@@ -12,7 +12,7 @@ const PostsPage = (props) => {
       {props.data.map((post, index) => {
         return <Post key={index} post={post} />
       })}
-      <CommentSection comments={props.data.comments}/>
+      <CommentSection />
     </div>
   );
 };
